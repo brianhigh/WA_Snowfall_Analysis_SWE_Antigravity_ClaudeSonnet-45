@@ -112,6 +112,9 @@ The R script (`analysis.R`) is organized into the following sections:
 - `monthly_swe_by_enso_phase.png`: Line plot of monthly patterns
 - `percentage_difference_from_neutral.png`: Bar plot of differences
 
+**Results Summary** (saved to top-level folder):
+- `RESULTS_SUMMARY.md`: Summary of results
+
 ## Code Style
 
 - **Line Length**: Maximum 80 characters
