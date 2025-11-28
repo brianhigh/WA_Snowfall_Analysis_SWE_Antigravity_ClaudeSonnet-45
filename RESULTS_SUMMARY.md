@@ -75,11 +75,11 @@ These findings have important implications for:
 ## Files Generated
 
 ### Data Files (in [data/](data/) folder)
-- `oni_data.csv`: Raw ONI data from NOAA
+- [oni_data.csv](data/oni_data.csv): Raw ONI data from NOAA
 - `snotel_raw_*.csv`: Raw SNOTEL data for each site
-- `snotel_processed.csv`: Processed snowfall data with ENSO classifications
-- `monthly_summary.csv`: Monthly average new SWE by ENSO phase and site
-- `percentage_difference.csv`: Percentage difference from neutral years
+- [snotel_processed.csv](data/snotel_processed.csv): Processed snowfall data with ENSO classifications
+- [monthly_summary.csv](data/monthly_summary.csv): Monthly average new SWE by ENSO phase and site
+- [percentage_difference.csv](data/percentage_difference.csv): Percentage difference from neutral years
 
 ### Plot Files (in [plots/](plots/) folder)
 - [monthly_swe_by_enso_phase.png](plots/monthly_swe_by_enso_phase.png): Line plot of monthly patterns
