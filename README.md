@@ -101,16 +101,16 @@ The R script (`analysis.R`) is organized into the following sections:
 
 ### Output Files
 
-**Data Files** (saved to `data/` folder):
-- `oni_data.csv`: Raw ONI data from NOAA
-- `snotel_raw_[site].csv`: Raw SNOTEL data for each site
-- `snotel_processed.csv`: Processed snowfall data with ENSO classifications
-- `monthly_summary.csv`: Monthly average new SWE by ENSO phase and site
-- `percentage_difference.csv`: Percentage difference from neutral years
+**Data Files** (saved to [data/](data/) folder):
+- [oni_data.csv](data/oni_data.csv): Raw ONI data from NOAA
+- [snotel_raw_[site].csv](data/snotel_raw_[site].csv): Raw SNOTEL data for each site
+- [snotel_processed.csv](data/snotel_processed.csv): Processed snowfall data with ENSO classifications
+- [monthly_summary.csv](data/monthly_summary.csv): Monthly average new SWE by ENSO phase and site
+- [percentage_difference.csv](data/percentage_difference.csv): Percentage difference from neutral years
 
-**Plot Files** (saved to `plots/` folder):
-- `monthly_swe_by_enso_phase.png`: Line plot of monthly patterns
-- `percentage_difference_from_neutral.png`: Bar plot of differences
+**Plot Files** (saved to [plots/](plots/) folder):
+- [monthly_swe_by_enso_phase.png](plots/monthly_swe_by_enso_phase.png): Line plot of monthly patterns
+- [percentage_difference_from_neutral.png](plots/percentage_difference_from_neutral.png): Bar plot of differences
 
 **Results Summary** (saved to top-level folder):
 - [RESULTS_SUMMARY.md](RESULTS_SUMMARY.md): Summary of results
