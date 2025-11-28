@@ -21,3 +21,15 @@ NOTE: The LLM was not able to complete the analysis successfully on the first tr
 "Are you sure SNOTEL 1109 is Wells Creek? Shouldn't it be 909?"
 
 After this, the LLM was able to complete the analysis successfully.
+
+However the results summary had errors surrounding the percentage difference from neutral years for Wells Creek. It needed to be guided to fix this.
+
+"In RESULTS_SUMMARY.md, the Key Findings for Percentage difference for Wells Creek do not match the percentage_difference.csv file's data. Please fix this."
+
+"You need to make corresponding fixes for the Major Insights section of that same document."
+
+"In RESULTS_SUMMARY.md, you claim that Snoqualimie pass region had the largest snowfall deficit, but the data indicates this was actully true for Wells Creek. Fix that."
+
+After this, the LLM was able to update the results summary successfully.
+
+

@@ -31,22 +31,22 @@ The analysis reveals distinct patterns in how different ENSO phases affect snowf
 - **Strong El Niño**: -18.0% less snowfall than neutral years
 
 #### Wells Creek (Mount Baker Region)
-- **Strong La Niña**: +38.4% more snowfall than neutral years
-- **Weak La Niña**: +46.8% more snowfall than neutral years
-- **Weak El Niño**: -31.1% less snowfall than neutral years
-- **Strong El Niño**: -15.4% less snowfall than neutral years
+- **Strong La Niña**: +12.3% more snowfall than neutral years
+- **Weak La Niña**: -11.5% less snowfall than neutral years
+- **Weak El Niño**: -29.5% less snowfall than neutral years
+- **Strong El Niño**: -17.5% less snowfall than neutral years
 
 ## Major Insights
 
-1. **Strong La Niña consistently brings more snow**: All sites show increased snowfall during Strong La Niña years, with the Mount Baker region (Wells Creek) showing the most dramatic increase (+38-47%).
+1. **Strong La Niña consistently brings more snow**: All sites show increased snowfall during Strong La Niña years, with Stevens Pass showing the largest increase (+19.5%).
 
-2. **El Niño years generally bring less snow**: Both Weak and Strong El Niño phases result in below-normal snowfall across all sites, with reductions ranging from 11% to 31%.
+2. **El Niño years generally bring less snow**: Both Weak and Strong El Niño phases result in below-normal snowfall across all sites, with reductions ranging from 11% to 30%.
 
-3. **Regional variation is significant**: The Mount Baker region (Wells Creek) shows the strongest response to ENSO patterns, with both La Niña phases bringing substantially more snow than neutral years.
+3. **Regional variation is significant**: Stevens Pass shows the strongest positive response to La Niña patterns, with both La Niña phases bringing more snow than neutral years.
 
-4. **Weak La Niña shows mixed results**: While Wells Creek and Stevens Pass see increased snowfall during Weak La Niña, Paradise and Stampede Pass actually see decreased snowfall compared to neutral years.
+4. **Weak La Niña shows mixed results**: Only Stevens Pass sees increased snowfall during Weak La Niña (+2.7%), while Paradise, Stampede Pass, and Wells Creek all see decreased snowfall compared to neutral years.
 
-5. **Stampede Pass most affected by El Niño**: The Snoqualmie Pass region shows the largest snowfall deficit during Weak El Niño years (-24.8%).
+5. **Wells Creek most affected by El Niño**: The Mount Baker region shows the largest snowfall deficit during Weak El Niño years (-29.5%).
 
 ## Monthly Patterns
 
