@@ -96,7 +96,7 @@ The R script (`analysis.R`) is organized into the following sections:
 
 ### Execution
 ```bash
-/usr/local/bin/Rscript analysis.R
+/path/to/Rscript analysis.R
 ```
 
 ### Output Files
@@ -162,3 +162,7 @@ The analysis will reveal:
 - SNOTEL sites are selected to represent different regions of the WA Cascades
 - Monthly calculations use new snowfall (daily deltas) rather than cumulative values
 - Statistical comparisons use percentage differences to account for site-to-site variability
+
+---
+
+This project was completed using the Antigravity prompt settings: ^Fast ^Claude Sonnet 4.5. See [prompt.md](prompt.md) for details.

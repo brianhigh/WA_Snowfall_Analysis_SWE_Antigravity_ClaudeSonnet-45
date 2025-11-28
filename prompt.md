@@ -1,4 +1,4 @@
-[ Antigravity prompt settings: ^Fast ^Claude Sonnet 4.5 then, after first draft of analysis.R, switched to Gemini 3 Pro (High) after exceeding token limit]
+[ Antigravity prompt settings: ^Fast ^Claude Sonnet 4.5 ]
 
 Write an R script which reproduces the following analysis, including generation of all plots, as well as the web scraping steps needed to download and import real data from respected sources. Use pacman::p_load() for loading R packages. Produce an implementation plan in Markdown, write the code, then test and debug. Plots should show the data year range in the title and data source in the caption. The full path to Rscript.exe is: "/usr/local/bin/Rscript". Save data as CSV files in "data" folder and plots as PNG files in "plots" folder. Make sure to line-wrap the R code so that lines are <= 80 characters long. Indent and space the code according to common best practice style for R.
 
@@ -15,3 +15,9 @@ Write an R script which reproduces the following analysis, including generation 
   - In ggplot(), in geom_line() and geom_point(), use linewidth for the line plot instead of size to avoid the warning about deprecated syntax.
 - Compare snowfall in strong vs weak intensities for both La Niña and El Niño years and show percentage snowfall difference from neutral years by site in a new bar plot.
 - Save the Walkthough.md as README.md in Markdown format.
+
+NOTE: The LLM was not able to complete the analysis successfully on the first try. It needed to be guided to fix a site number:
+
+"Are you sure SNOTEL 1109 is Wells Creek? Shouldn't it be 909?"
+
+After this, the LLM was able to complete the analysis successfully.
