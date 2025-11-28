@@ -8,6 +8,8 @@ This analysis examined the relationship between ENSO (El Niño-Southern Oscillat
 
 ### Percentage Difference from Neutral Years
 
+![plots/percentage_difference_from_neutral.png](plots/percentage_difference_from_neutral.png)
+
 The analysis reveals distinct patterns in how different ENSO phases affect snowfall across the four sites:
 
 #### Paradise (Mount Rainier Region)
@@ -48,7 +50,9 @@ The analysis reveals distinct patterns in how different ENSO phases affect snowf
 
 ## Monthly Patterns
 
-The monthly analysis (see `plots/monthly_swe_by_enso_phase.png`) shows:
+![plots/monthly_swe_by_enso_phase.png](plots/monthly_swe_by_enso_phase.png)
+
+The monthly analysis shows:
 - Peak snowfall typically occurs in December-January across all ENSO phases
 - Strong La Niña years show consistently higher monthly snowfall throughout the season
 - El Niño years show reduced snowfall in all months, particularly mid-winter
@@ -70,23 +74,23 @@ These findings have important implications for:
 
 ## Files Generated
 
-### Data Files (in `data/` folder)
+### Data Files (in [data/](data/) folder)
 - `oni_data.csv`: Raw ONI data from NOAA
 - `snotel_raw_*.csv`: Raw SNOTEL data for each site
 - `snotel_processed.csv`: Processed snowfall data with ENSO classifications
 - `monthly_summary.csv`: Monthly average new SWE by ENSO phase and site
 - `percentage_difference.csv`: Percentage difference from neutral years
 
-### Plot Files (in `plots/` folder)
-- `monthly_swe_by_enso_phase.png`: Line plot of monthly patterns
-- `percentage_difference_from_neutral.png`: Bar plot of differences
+### Plot Files (in [plots/](plots/) folder)
+- [monthly_swe_by_enso_phase.png](plots/monthly_swe_by_enso_phase.png): Line plot of monthly patterns
+- [percentage_difference_from_neutral.png](plots/percentage_difference_from_neutral.png): Bar plot of differences
 
 ## Running the Analysis
 
 To reproduce this analysis:
 
 ```bash
-/usr/local/bin/Rscript analysis.R
+/path/to/Rscript analysis.R
 ```
 
 The script will:
@@ -95,7 +99,7 @@ The script will:
 3. Process and merge the datasets
 4. Generate summary statistics
 5. Create visualizations
-6. Save all outputs to `data/` and `plots/` folders
+6. Save all outputs to [data/](data/) and [plots/](plots/) folders
 
 ## References
 

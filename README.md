@@ -113,7 +113,7 @@ The R script (`analysis.R`) is organized into the following sections:
 - `percentage_difference_from_neutral.png`: Bar plot of differences
 
 **Results Summary** (saved to top-level folder):
-- `RESULTS_SUMMARY.md`: Summary of results
+- [RESULTS_SUMMARY.md](RESULTS_SUMMARY.md): Summary of results
 
 ## Code Style
 
