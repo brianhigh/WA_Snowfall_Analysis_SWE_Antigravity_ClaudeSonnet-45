@@ -2,7 +2,7 @@
 
 ## Analysis Overview
 
-This analysis examined the relationship between ENSO (El Niño-Southern Oscillation) climate patterns and snowfall in the Washington Cascades from 1981-2025. Data from four SNOTEL sites were analyzed across five ENSO phases.
+This analysis examined the relationship between ENSO (El Niño-Southern Oscillation) climate patterns and snowfall in the Washington Cascades from 1981-2025. Data from four SNOTEL sites were analyzed across seven ENSO phases, including Moderate intensity levels for both El Niño and La Niña events.
 
 ## Key Findings
 
@@ -13,40 +13,52 @@ This analysis examined the relationship between ENSO (El Niño-Southern Oscillat
 The analysis reveals distinct patterns in how different ENSO phases affect snowfall across the four sites:
 
 #### Paradise (Mount Rainier Region)
-- **Strong La Niña**: +12.7% more snowfall than neutral years
+- **Strong La Niña**: +13.3% more snowfall than neutral years
+- **Moderate La Niña**: +12.3% more snowfall than neutral years
 - **Weak La Niña**: -5.8% less snowfall than neutral years
 - **Weak El Niño**: -18.2% less snowfall than neutral years
-- **Strong El Niño**: -17.4% less snowfall than neutral years
+- **Moderate El Niño**: -22.1% less snowfall than neutral years
+- **Strong El Niño**: -15.1% less snowfall than neutral years
 
 #### Stampede Pass (Snoqualmie Pass Region)
-- **Strong La Niña**: +13.1% more snowfall than neutral years
+- **Strong La Niña**: +16.1% more snowfall than neutral years
+- **Moderate La Niña**: +10.9% more snowfall than neutral years
 - **Weak La Niña**: -11.8% less snowfall than neutral years
 - **Weak El Niño**: -24.8% less snowfall than neutral years
-- **Strong El Niño**: -21.3% less snowfall than neutral years
+- **Moderate El Niño**: -24.9% less snowfall than neutral years
+- **Strong El Niño**: -19.8% less snowfall than neutral years
 
 #### Stevens Pass
-- **Strong La Niña**: +19.5% more snowfall than neutral years
+- **Strong La Niña**: +12.9% more snowfall than neutral years
+- **Moderate La Niña**: +24.4% more snowfall than neutral years
 - **Weak La Niña**: +2.7% more snowfall than neutral years
 - **Weak El Niño**: -11.6% less snowfall than neutral years
-- **Strong El Niño**: -18.0% less snowfall than neutral years
+- **Moderate El Niño**: -13.8% less snowfall than neutral years
+- **Strong El Niño**: -19.6% less snowfall than neutral years
 
 #### Wells Creek (Mount Baker Region)
-- **Strong La Niña**: +12.3% more snowfall than neutral years
+- **Strong La Niña**: +3.1% more snowfall than neutral years
+- **Moderate La Niña**: +18.5% more snowfall than neutral years
 - **Weak La Niña**: -11.5% less snowfall than neutral years
 - **Weak El Niño**: -29.5% less snowfall than neutral years
-- **Strong El Niño**: -17.5% less snowfall than neutral years
+- **Moderate El Niño**: -1.2% less snowfall than neutral years
+- **Strong El Niño**: -23.0% less snowfall than neutral years
 
 ## Major Insights
 
-1. **Strong La Niña consistently brings more snow**: All sites show increased snowfall during Strong La Niña years, with Stevens Pass showing the largest increase (+19.5%).
+1. **Strong and Moderate La Niña generally bring more snow**: Most sites show increased snowfall during Strong and Moderate La Niña years, with Stevens Pass showing the largest increase during Moderate La Niña (+24.4%).
 
-2. **El Niño years generally bring less snow**: Both Weak and Strong El Niño phases result in below-normal snowfall across all sites, with reductions ranging from 11% to 30%.
+2. **El Niño years consistently bring less snow**: All El Niño intensity levels (Weak, Moderate, Strong) result in below-normal snowfall across all sites, with reductions ranging from 11% to 30%.
 
-3. **Regional variation is significant**: Stevens Pass shows the strongest positive response to La Niña patterns, with both La Niña phases bringing more snow than neutral years.
+3. **Moderate intensity reveals important patterns**: The new Moderate categories show that:
+   - Moderate La Niña can be more beneficial than Strong La Niña at some sites (e.g., Stevens Pass and Wells Creek)
+   - Moderate El Niño impacts vary by site, from minimal effect at Wells Creek (-1.2%) to severe at Stampede Pass (-24.9%)
 
 4. **Weak La Niña shows mixed results**: Only Stevens Pass sees increased snowfall during Weak La Niña (+2.7%), while Paradise, Stampede Pass, and Wells Creek all see decreased snowfall compared to neutral years.
 
-5. **Wells Creek most affected by El Niño**: The Mount Baker region shows the largest snowfall deficit during Weak El Niño years (-29.5%).
+5. **Wells Creek most affected by Weak El Niño**: The Mount Baker region shows the largest snowfall deficit during Weak El Niño years (-29.5%), but surprisingly shows minimal impact during Moderate El Niño (-1.2%).
+
+6. **Regional variation is significant**: Different sites respond differently to the same ENSO phase, highlighting the importance of local topography and weather patterns in modulating ENSO effects.
 
 ## Monthly Patterns
 
@@ -54,7 +66,7 @@ The analysis reveals distinct patterns in how different ENSO phases affect snowf
 
 The monthly analysis shows:
 - Peak snowfall typically occurs in December-January across all ENSO phases
-- Strong La Niña years show consistently higher monthly snowfall throughout the season
+- Strong and Moderate La Niña years show consistently higher monthly snowfall throughout the season
 - El Niño years show reduced snowfall in all months, particularly mid-winter
 
 ## Data Quality

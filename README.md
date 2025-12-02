@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project analyzes the relationship between El Niño-Southern Oscillation (ENSO) climate patterns and snowfall in the Washington Cascades. The analysis focuses on four SNOTEL sites and examines how different ENSO phases (Strong/Weak La Niña, Neutral, Strong/Weak El Niño) correlate with monthly snowfall patterns.
+This project analyzes the relationship between El Niño-Southern Oscillation (ENSO) climate patterns and snowfall in the Washington Cascades. The analysis focuses on four SNOTEL sites and examines how different ENSO phases (Strong/Moderate/Weak La Niña, Neutral, Strong/Moderate/Weak El Niño) correlate with monthly snowfall patterns.
 
 ## Research Question
 
@@ -28,12 +28,14 @@ This project analyzes the relationship between El Niño-Southern Oscillation (EN
 - **Exclusion**: Current incomplete season (if applicable)
 
 ### ENSO Phase Classification
-Based on ONI values:
-- **Strong La Niña**: ONI ≤ -1.0 (blue)
-- **Weak La Niña**: -1.0 < ONI ≤ -0.5 (light blue)
-- **Neutral**: -0.5 < ONI < 0.5 (light purple)
-- **Weak El Niño**: 0.5 ≤ ONI < 1.0 (light red)
-- **Strong El Niño**: ONI ≥ 1.0 (red)
+Based on DJF (December-January-February) ONI values:
+- **Strong La Niña**: ONI ≤ -1.5
+- **Moderate La Niña**: -1.5 < ONI ≤ -1.0
+- **Weak La Niña**: -1.0 < ONI ≤ -0.5
+- **Neutral**: -0.5 < ONI < 0.5
+- **Weak El Niño**: 0.5 ≤ ONI < 1.0
+- **Moderate El Niño**: 1.0 ≤ ONI < 1.5
+- **Strong El Niño**: ONI ≥ 1.5
 
 ### Snowfall Metric
 - **Measure**: Snow Water Equivalent (SWE)
@@ -68,7 +70,7 @@ Based on ONI values:
    - **Plot 2**: Bar plot of percentage snowfall difference from neutral
      - X-axis: Sites
      - Y-axis: Percentage difference from neutral
-     - Bars: Grouped by ENSO intensity (Strong/Weak La Niña, Strong/Weak El Niño)
+     - Bars: Grouped by ENSO intensity (Strong/Moderate/Weak La Niña, Strong/Moderate/Weak El Niño)
      - Colors: Consistent ENSO phase colors
 
 5. **Output**
@@ -134,11 +136,13 @@ The R script (`analysis.R`) is organized into the following sections:
 ### Color Palette
 ```r
 enso_colors <- c(
-  "Strong La Niña" = "#0000FF",      # blue
-  "Weak La Niña" = "#87CEEB",        # light blue
-  "Neutral" = "#DDA0DD",             # light purple
-  "Weak El Niño" = "#FFB6C1",        # light red
-  "Strong El Niño" = "#FF0000"       # red
+  "Strong La Niña" = "#2166AC",      # dark blue
+  "Moderate La Niña" = "#4393C3",    # medium blue
+  "Weak La Niña" = "#92C5DE",        # light blue
+  "Neutral" = "#B2ABD2",             # purple-gray
+  "Weak El Niño" = "#F4A582",        # light coral
+  "Moderate El Niño" = "#D6604D",    # medium red
+  "Strong El Niño" = "#B2182B"       # dark red
 )
 ```
 

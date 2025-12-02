@@ -32,4 +32,16 @@ However the results summary had errors surrounding the percentage difference fro
 
 After this, the LLM was able to update the results summary successfully.
 
+Then I decided to incude levels for Moderate El Nino and La Nina phases.
+
+'Modify the enso classification to include Moderate levels for both El Nino and La Nina, using this criteria: 
+{ 
+  El Nino [Weak (>=0.5 to <1), Moderate (>=1.0 and <1.5), Strong (>=1.5)], 
+  La Nina [Strong (<=-1.5), Moderate (>-1.5 and <=-1.0), Weak (>-1 to <=-0.5)], 
+  Neutral (>-0.5 to <0.5)
+} 
+and also use this color palette: 
+c(`Strong La Nina` = "#2166AC", `Moderate La Nina` = "#4393C3", `Weak La Nina` = "#92C5DE", Neutral = "#B2ABD2", `Weak El Nino` = "#F4A582", `Moderate El Nino` = "#D6604D", `Strong El Nino` = "#B2182B")'
+
+"Now update the plots, results summary, and readme accordingly."
 
