@@ -547,7 +547,7 @@ create_monthly_line_plot <- function(monthly_summary, year_range) {
       legend.position = "bottom",
       legend.title = element_text(face = "bold"),
       strip.text = element_text(face = "bold", size = 11),
-      axis.text.x = element_text(angle = 45, hjust = 1),
+      axis.text.x = element_text(angle = 0, hjust = 0.5),
       panel.grid.minor = element_blank()
     )
 
@@ -609,7 +609,7 @@ create_percentage_bar_plot <- function(pct_diff, year_range) {
       plot.caption = element_text(hjust = 0.5, size = 9),
       legend.position = "bottom",
       legend.title = element_text(face = "bold"),
-      axis.text.x = element_text(angle = 45, hjust = 1),
+      axis.text.x = element_text(angle = 0, hjust = 0.5),
       panel.grid.minor = element_blank()
     )
 

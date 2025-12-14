@@ -45,3 +45,7 @@ c(`Strong La Nina` = "#2166AC", `Moderate La Nina` = "#4393C3", `Weak La Nina` =
 
 "Now update the plots, results summary, and readme accordingly."
 
+Lastly, a minor nitpick was the angled x-x axis labels. I needed to guide the LLM to fix this.
+
+"For the x-asis labels, as set in axis.text.x(), use an angle of 0 degrees instead of 45 degrees."
+
